@@ -1,6 +1,6 @@
 READPackage.describe({
   name: 'ccorcos:utils',
-  summary: 'Utilites missing from Underscore and Ramda',
+  summary: 'A patchwork of utilites missing from Underscore and Ramda',
   version: '0.0.1',
   git: 'https://github.com/ccorcos/meteor-utils'
 });
