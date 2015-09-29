@@ -1,4 +1,4 @@
-READPackage.describe({
+Package.describe({
   name: 'ccorcos:utils',
   summary: 'A patchwork of utilites missing from Underscore and Ramda',
   version: '0.0.1',
