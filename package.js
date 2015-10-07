@@ -1,12 +1,12 @@
 Package.describe({
   name: 'ccorcos:utils',
   summary: 'A patchwork of utilites missing from Underscore and Ramda',
-  version: '0.0.1',
+  version: '0.0.2',
   git: 'https://github.com/ccorcos/meteor-utils'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.0');
+  api.versionsFrom('1.2');
   var packages = [
     'underscore',
     'ramda:ramda@0.17.1',
