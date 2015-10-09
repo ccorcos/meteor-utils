@@ -179,3 +179,11 @@ U.defaults = (overrideObj={}, defaultsObj) ->
   override = R.clone(overrideObj)
   _.defaults(override, defaultsObj)
   return override
+
+# pipe functions through this and only the first one will be called
+U.once = ->
+  called = false
+  (f) ->
+    unless called
+      called = true
+      f()
